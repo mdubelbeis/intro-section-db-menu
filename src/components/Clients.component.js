@@ -7,7 +7,7 @@ import maker from '../images/client-maker.svg';
 
 const Clients = () => {
   return (
-    <div className="flex justify-between items-center mt-10 max-w-xl mx-auto lg:max-w-[540px] lg:mt-0 lg:absolute lg:bottom-0 lg:left-20">
+    <div className="flex justify-between items-center mt-10 max-w-xl mx-auto lg:max-w-[540px] lg:mt-0 lg:absolute lg:bottom-0 lg:left-10">
       <div>
         <img className="logo" src={databiz} alt="databiz logo" />
       </div>
