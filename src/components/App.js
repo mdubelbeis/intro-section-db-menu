@@ -3,6 +3,7 @@ import Menu from '../images/icon-menu.svg';
 
 import Image from './Image.component';
 import Info from './Info.component';
+import Clients from './Clients.component';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <main>
         <Image />
         <Info />
+        <Clients />
       </main>
     </div>
   );
