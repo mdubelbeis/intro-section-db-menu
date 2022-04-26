@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Sponsors from './Sponsors.component';
+import Clients from './Clients.component';
 
 const Info = () => {
   return (
@@ -11,7 +11,7 @@ const Info = () => {
         processes, create team rituals, and watch productivity soar
       </p>
       <button>Learn more</button>
-      <Sponsors />
+      <Clients />
     </div>
   );
 };
