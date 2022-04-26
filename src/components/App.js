@@ -1,44 +1,19 @@
-import { useState } from 'react';
-
-import Logo from '../images/logo.svg';
-import Menu from '../images/icon-menu.svg';
-
 import Image from './Image.component';
 import Info from './Info.component';
 import Clients from './Clients.component';
-import Nav from './Nav.component';
+import Header from './Header.component';
 
 const App = () => {
-  const [mobileNav, setMobileNav] = useState(false);
-
-  const showMobileNav = (value) => {
-    setMobileNav(value);
-  };
-
   return (
-    <div className="py-6 px-4">
+    <div className="py-6 px-4 w-screen mx-auto max-w-6xl lg:px-2">
       <header className="relative flex p-2 items-center justify-between">
-        <img className="pt-1" src={Logo} alt="logo" />
-        <div onClick={() => setMobileNav(true)}>
-          <img className="w-10" src={Menu} alt="menu button" />
-        </div>
-        {mobileNav && (
-          <>
-            <div
-              className={`${
-                mobileNav ? 'bg-almost-black' : 'bg-almost-white'
-              } h-screen w-screen -z-100 fixed top-0 left-0 opacity-80`}
-            ></div>
-            <div className="fixed top-0 right-0 bg-almost-white w-8/12 h-screen z-100">
-              <Nav showMobileNav={showMobileNav} />
-            </div>
-          </>
-        )}
+        <Header />
       </header>
-
-      <main className="mt-10">
-        <Image />
-        <Info />
+      <main className="mt-10 lg:relative lg:max-w-full lg:w-full lg:p-8">
+        <div className="lg:flex lg:flex-row-reverse lg:items-center lg:gap-20">
+          <Image />
+          <Info />
+        </div>
         <Clients />
       </main>
     </div>

@@ -55,7 +55,7 @@ const Nav = ({ showMobileNav }) => {
   };
 
   return (
-    <div className="text-medium-gray p-4 text-sm">
+    <div className="text-medium-gray p-8 text-sm">
       <div
         className="fixed top-4 right-4 hover:cursor-pointer"
         onClick={() => showMobileNav(false)}
@@ -83,7 +83,10 @@ const Nav = ({ showMobileNav }) => {
         {openFeatures &&
           navItems.map((item) => {
             return (
-              <div className="flex gap-2 items-center px-6 hover:cursor-pointer">
+              <div
+                key={item.text}
+                className="flex gap-2 items-center px-6 hover:cursor-pointer"
+              >
                 <img className="w-4 h-4" src={item.icon} alt="" />
                 <p>{item.text}</p>
               </div>
