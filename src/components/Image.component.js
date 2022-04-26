@@ -3,7 +3,7 @@ import desktop from '../images/image-hero-desktop.png';
 
 const Image = () => {
   return (
-    <div className="mt-4 max-w-xl mx-auto">
+    <div className="max-w-lg mx-auto">
       <picture>
         <source srcSet={`${mobile} 1x`} media="(max-width: 1020px)" />
         <img

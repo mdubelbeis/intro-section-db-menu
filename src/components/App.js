@@ -10,7 +10,7 @@ const App = () => {
         <Header />
       </header>
       <main className="mt-10 lg:relative lg:max-w-full lg:w-full lg:mt-44">
-        <div className="lg:flex lg:flex-row-reverse lg:items-center lg:gap-20 lg:px-10 ">
+        <div className="lg:flex lg:flex-row-reverse lg:items-center lg:gap-20 lg:px-10">
           <Image />
           <Info />
         </div>
