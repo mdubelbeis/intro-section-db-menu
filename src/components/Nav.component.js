@@ -111,7 +111,7 @@ const Nav = ({ showMobileNav }) => {
         </div>
         <div className="w-full" onClick={(e) => e.preventDefault()}>
           <a
-            className="py-2 border-2 border-gray-400 inline-block w-full rounded-xl text-center hover:cursor:pointer hover:bg-almost-black hover:text-almost-white lg:px-6"
+            className="py-2 border-2 border-gray-400 inline-block w-full rounded-xl text-center hover:cursor:pointer hover:bg-almost-black hover:border-almost-black hover:text-almost-white lg:px-6"
             href="#"
           >
             Register
