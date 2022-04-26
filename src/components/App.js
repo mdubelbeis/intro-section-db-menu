@@ -2,6 +2,8 @@ import Logo from '../images/logo.svg';
 import Menu from '../images/icon-menu.svg';
 
 import Image from './Image.component';
+import Info from './Info.component';
+
 const App = () => {
   return (
     <div className="py-6 px-4">
@@ -12,6 +14,7 @@ const App = () => {
 
       <main>
         <Image />
+        <Info />
       </main>
     </div>
   );
