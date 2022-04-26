@@ -8,6 +8,7 @@ const Image = () => {
         <source srcSet={`${mobile} 1x`} media="(max-width: 1020px)" />
         <img
           srcSet={`${desktop} 2x`}
+          src={desktop}
           alt="Artsy photo of guy on computer"
         />
       </picture>
