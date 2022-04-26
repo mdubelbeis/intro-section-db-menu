@@ -1,10 +1,10 @@
 const Info = () => {
   return (
-    <div className="text-center space-y-6 lg:space-y-10 lg:text-left lg:w-[540px] lg:px-10">
-      <h1 className="text-4xl font-bold mt-10 lg:text-6xl lg:pr-6 lg:mt-0">
+    <div className="text-center space-y-6 max-w-xl mx-auto lg:space-y-8 lg:text-left lg:w-[540px] lg:mb-10 lg:px-10 xl:space-y-12">
+      <h1 className="text-4xl font-bold mt-10 lg:text-7xl lg:mt-0">
         Make remote work
       </h1>
-      <p className="text-medium-gray lg:pr-10">
+      <p className="text-medium-gray">
         Get your team in sync, no matter your locationi. Streamline
         processes, create team rituals, and watch productivity soar
       </p>
