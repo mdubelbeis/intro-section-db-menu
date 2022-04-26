@@ -1,7 +1,7 @@
 const Info = () => {
   return (
-    <div className="text-center space-y-6 max-w-xl mx-auto lg:space-y-8 lg:text-left lg:w-[540px] lg:mb-10 lg:px-10 xl:space-y-12">
-      <h1 className="text-4xl font-bold mt-10 lg:text-7xl lg:mt-0">
+    <div className="text-center space-y-6 max-w-xl mx-auto lg:space-y-8 lg:text-left lg:w-[600px] lg:mb-10 xl:space-y-12">
+      <h1 className="text-4xl font-bold mt-10 lg:text-7xl lg:pr-[35px] lg:mt-0 xl:pr-[140px]">
         Make remote work
       </h1>
       <p className="text-medium-gray">
