@@ -2,8 +2,7 @@ import { useState } from 'react';
 import Logo from '../images/logo.svg';
 import Menu from '../images/icon-menu.svg';
 
-import MobileNav from './MobileNav.component';
-import DesktopNav from './DesktopNav.component';
+import Nav from './Nav.component';
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
@@ -14,10 +13,10 @@ const Header = () => {
 
   return (
     <>
-      <div className="lg:flex lg:items-center lg:gap-10 lg:relative">
-        <img className="pt-1" src={Logo} alt="logo" />
-        <div className="hidden lg:block">
-          <MobileNav />
+      <div className="lg:flex lg:items-start lg:gap-10 lg:min-h-[100px]">
+        <img src={Logo} alt="logo" />
+        <div className="hidden lg:block lg:ml-2">
+          <Nav />
         </div>
       </div>
       <div onClick={() => setShowNav(true)}>
@@ -35,7 +34,7 @@ const Header = () => {
             } h-screen w-screen fixed top-0 left-0 opacity-80`}
           ></div>
           <div className="fixed top-0 right-0 bg-almost-white w-8/12 h-screen max-w-lg">
-            <MobileNav showMobileNav={showMobileNav} />
+            <Nav showMobileNav={showMobileNav} />
           </div>
         </div>
       )}
