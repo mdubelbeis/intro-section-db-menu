@@ -9,7 +9,7 @@ const Image = () => {
         <img
           srcSet={`${desktop} 2x`}
           src={desktop}
-          alt="Artsy photo of guy on computer"
+          alt="guy on computer"
         />
       </picture>
     </div>
