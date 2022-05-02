@@ -9,7 +9,7 @@ const App = () => {
       <header className="relative flex p-2 items-center justify-between lg:fixed lg:top-4 lg:left-8">
         <Header />
       </header>
-      <main className="mt-10 lg:relative lg:max-w-full lg:w-full lg:mt-44">
+      <main className="mt-10 lg:relative lg:max-w-full lg:w-full lg:mt-32">
         <div className="lg:flex lg:flex-row-reverse lg:items-center lg:gap-20">
           <Image />
           <Info />
