@@ -1,7 +1,7 @@
 const Info = () => {
   return (
     <div className="text-center space-y-6 max-w-xl mx-auto lg:text-left lg:mb-10 lg:space-y-10">
-      <h1 className="text-4xl font-bold mt-10 lg:text-8xl lg:mt-0">
+      <h1 className="text-4xl font-bold mt-10 lg:text-6xl lg:mt-0">
         <span className="lg:block">Make</span> remote work
       </h1>
       <p className="text-medium-gray lg:text-md lg:tracking-wider">
