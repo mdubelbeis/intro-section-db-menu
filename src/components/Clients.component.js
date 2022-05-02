@@ -7,21 +7,21 @@ import maker from '../images/client-maker.svg';
 
 const Clients = () => {
   return (
-    <div className="flex justify-between items-center mt-10 max-w-xl mx-auto lg:max-w-[540px] lg:mt-0 lg:absolute lg:bottom-0 lg:left-10">
+    <div className="flex justify-between items-center mt-10 max-w-xl mx-auto lg:mt-0 lg:absolute lg:bottom-0 lg:ml-8">
       <div>
         <img className="logo" src={databiz} alt="databiz logo" />
       </div>
-      <div className="lg:ml-10">
+      <div className="lg:ml-12">
         <img
-          className="w-12"
+          className="w-12 xl:w-24"
           src={audiophile}
           alt="audiophile logo"
         />
       </div>
-      <div className="lg:ml-10">
+      <div className="lg:ml-12">
         <img className="logo" src={meet} alt="meet logo" />
       </div>
-      <div className="lg:ml-10">
+      <div className="lg:ml-12">
         <img className="logo" src={maker} alt="maker logo" />
       </div>
     </div>
