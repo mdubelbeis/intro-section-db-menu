@@ -107,12 +107,12 @@ const Nav = ({ showMobileNav }) => {
       {/*//// USER */}
       <div className="mt-10 flex flex-col items-center gap-4 lg:mt-0 lg:flex-row lg:gap-6 lg:fixed lg:top-4 lg:right-10 lg:text-base">
         <div className="hover:text-almost-black hover:cursor:pointer">
-          <a href="#">Login</a>
+          <a href="/">Login</a>
         </div>
         <div className="w-full" onClick={(e) => e.preventDefault()}>
           <a
             className="py-2 border-2 border-gray-400 inline-block w-full rounded-xl text-center hover:cursor:pointer hover:bg-almost-black hover:border-almost-black hover:text-almost-white lg:px-6"
-            href="#"
+            href="/"
           >
             Register
           </a>
